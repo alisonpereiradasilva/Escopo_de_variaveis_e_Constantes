@@ -1,0 +1,86 @@
+ESCOPO DE VARIAVEIS E CONSTANTES
+EXEMPLOS COM VARIAVEIS = LOCAIS, STATICAS E GLOBAIS
+
+variavel local
+
+function quadrado($num){
+
+return $num 8 $num
+}
+
+echo quadrado(4);
+
+-----------------------------------------------------------
+variavel local
+
+function calcula_dobro($numero){
+
+$resultado = $numero * 2;
+return $resultado
+}
+
+echo "Dobro de 10 e: " . calcula_dobro(10);
+
+echo"<br>";
+
+-----------------------------------------------------------
+variavel local
+
+function potenciacao($numero, $potencia){
+
+return $numero ^ $potencia;
+}
+
+echo "2 elevado a 5 potencia e: " . potenciacao(2,5);
+
+echo"<br>";
+-----------------------------------------------------------
+Variavel static
+
+function exibir_numero(){
+
+
+static $numero = 1;
+
+echo $numero;
+
+$numero++;
+
+}
+
+exibir_numero();
+exibir_numero();
+exibir_numero();
+echo"<br>"
+-----------------------------------------------------------
+Variavel Global
+
+$a=10;
+$b=500;
+
+function soma(){
+
+global $a, $b,
+
+$b = $a+$b;
+
+}
+
+soma();
+echo"<br>;
+------------------------------------------------------------
+
+Variavel Global
+
+$x=30;
+$y-50;
+
+function mostra_valor()}
+
+global $a, $b, $soma;
+$soma = $a + $b;
+
+}
+
+mostra_valor()
+echo $soma;
