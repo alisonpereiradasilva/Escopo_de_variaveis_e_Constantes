@@ -1,0 +1,1 @@
+# Escopo_de_variaveis_e_Constantes
